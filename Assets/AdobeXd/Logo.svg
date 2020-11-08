@@ -1,0 +1,65 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1828.96 932.1">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #1e5ee5;
+      }
+
+      .cls-2 {
+        fill: #fcfcfc;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-4, .cls-9 {
+        fill: #041844;
+      }
+
+      .cls-5 {
+        font-size: 48px;
+        font-family: Montserrat-Black, Montserrat;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>Logo</title>
+  <rect class="cls-1" x="942.9" width="886.07" height="886.07" rx="250" ry="250"/>
+  <path class="cls-1" d="M816.53,461.62c-13.09,171.6-164.71,202.61-164.71,202.61s-64.74,13-131.47,8.1a7,7,0,0,0-7.4,5.84l-24.18,147a7,7,0,0,1-6.92,5.87H337.12a7,7,0,0,1-6.95-7.9c5.55-43.4,43.28-256.24,260.72-407.15l-15,52.76L636.55,389l-96.87-11.66,46.23,25.35c-32.49.54-96.65,8.24-177,51.78a7,7,0,0,1-10.27-7.36l28.88-166.44a7,7,0,0,1,6.91-5.82H649A180.8,180.8,0,0,1,738.45,298C780,321.63,823.63,368.68,816.53,461.62Z" transform="translate(-252.1 -96.97)"/>
+  <path class="cls-2" d="M1880.86,448.69c-13.09,171.6-164.71,202.61-164.71,202.61s-64.74,13-131.47,8.1a7,7,0,0,0-7.4,5.84l-24.18,147a7,7,0,0,1-6.92,5.87H1401.45a7,7,0,0,1-6.95-7.9c5.55-43.4,43.28-256.24,260.72-407.15l-15,52.76,60.62-79.71L1604,364.42l46.23,25.35c-32.49.54-96.65,8.24-177,51.78a7,7,0,0,1-10.27-7.36l28.88-166.44a7,7,0,0,1,6.91-5.82h214.59a180.8,180.8,0,0,1,89.42,23.16C1844.29,308.7,1888,355.75,1880.86,448.69Z" transform="translate(-252.1 -96.97)"/>
+  <line class="cls-3" x1="244.08" y1="373.08" x2="240.47" y2="363.46"/>
+  <path class="cls-4" d="M632.25,390.75" transform="translate(-252.1 -96.97)"/>
+  <text class="cls-5" transform="translate(0 871.72)"><tspan class="cls-6">PA</tspan><tspan class="cls-7" x="70.03" y="0">Y</tspan><tspan class="cls-8" x="102.67" y="0">W</tspan><tspan x="159.84" y="0">ITH</tspan><tspan class="cls-9" x="246.62" y="0">P</tspan><tspan class="cls-10" x="281.81" y="0">R</tspan><tspan class="cls-11" x="317.56" y="0">A</tspan><tspan class="cls-12" x="354.09" y="0">Y</tspan><tspan class="cls-13" x="386.25" y="0">.</tspan><tspan class="cls-4" x="399.89" y="0">ORG</tspan></text>
+</svg>

@@ -1,1233 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Smooth software company landing page</title>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
-    <meta
-      name="keywords"
-      content="Landing page, software, (SaaS) services, Bootstrap 4 template, plugins, app, SEO friendly, business, Sass, Gulp"
-    />
-    <meta
-      name="description"
-      content="Smooth is a HTML5 Landing Page Build using Gulp, SCSS, and Bootstrap4. It was designed to promote your App, services or business projects."
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="author" content="99webpage" />
+    <meta name="keywords"
+        content="paywithpray, pay with pray, opensource, contribute, web developer, software engineer, free website, free web tools, free software" />
+    <meta name="description" content="Open source software development resources" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="PayWithPray" />
+    <link rel="icon" type="image/png" href="Assets/icons/favicon-144.png" sizes="144x144" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>PayWithPray | Home</title>
+</head>
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="http://99webpage.com/theme-review/landingpage/smooth/favicon/smooth-favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="http://99webpage.com/theme-review/landingpage/smooth/favicon/smooth-favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="http://99webpage.com/theme-review/landingpage/smooth/favicon/smooth-favicon-144x144.png"
-      sizes="144x144"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="http://99webpage.com/theme-review/landingpage/smooth/favicon/smooth-favicon-196x196.png"
-      sizes="196x196"
-    />
-
-    <link
-      rel="apple-touch-icon"
-      href="http://99webpage.com/theme-review/landingpage/smooth/favicon/smooth-favicon-196x196.png"
-    />
-
-    <!-- Template stylesheet -->
-    <link
-      rel="stylesheet"
-      href="http://99webpage.com/theme-review/landingpage/smooth/assets/css/style.min.css"
-    />
-  </head>
-  <body>
-    <!-- Start Header -->
-    <header class="header js-header-scroll">
-      <nav hidden>
-        <div class="nav-header">
-          <a href="#" class="brand">
-            <img
-              src="http://99webpage.com/theme-review/landingpage/smooth/assets/brand/logo.png"
-              class="logo"
-              alt="Smooth"
-            />
-          </a>
-          <button class="toggle-bar">
-            <span class="fa fa-bars"></span>
-          </button>
-        </div>
-        <!-- Start Header menu for mobile -->
-        <div class="header__mobile js-header-menu">
-          <a href="#" class="header__mobile-brand">Menu</a>
-          <button class="toggle-bar header__mobile-toggle">
-            <span class="fa fa-remove"></span>
-          </button>
-        </div>
-        <!-- End Header menu for mobile -->
-        <ul class="menu">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li>
-            <a
-              href="http://99webpage.com/theme-review/landingpage/smooth/about-us.html"
-              >About Smooth</a
-            >
-          </li>
-          <li>
-            <a
-              href="http://99webpage.com/theme-review/landingpage/smooth/services.html"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              href="http://99webpage.com/theme-review/landingpage/smooth/pricing.html"
-              >Pricing</a
-            >
-          </li>
-          <li class="megamenu">
-            <a href="#">Megamenu</a>
-            <div class="megamenu-content megamenu-product">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-4 col-megamenu">
-                    <div class="megamenu__widget">
-                      <h6 class="megamenu__widget-title">Products</h6>
-                      <div class="megamenu__widget-group">
-                        <a
-                          href="https://themeforest.net/item/bacotna-creative-agency-and-corporate-template/20789432"
-                          class="megamenu__widget-group-link"
-                        >
-                          Bacotna
-                          <span>Creative Agency and Corporate Template</span>
-                        </a>
-                      </div>
-
-                      <div class="megamenu__widget-group">
-                        <a
-                          href="https://themeforest.net/item/anakual-multipurpose-and-responsive-corporate-template/19504220"
-                          class="megamenu__widget-group-link"
-                        >
-                          Anakual
-                          <span>Multipurpose and responsive corporate</span>
-                        </a>
-                      </div>
-
-                      <div class="megamenu__widget-group">
-                        <a
-                          href="https://themeforest.net/item/creativica-multiple-creative-html5-template/19061883"
-                          class="megamenu__widget-group-link"
-                        >
-                          Creativica
-                          <span>Multiple Creative HTML5 Template</span>
-                        </a>
-                      </div>
-
-                      <div class="megamenu__widget-group">
-                        <a
-                          href="https://themeforest.net/item/inspired-multipurpose-corporate-and-creative-template/18412306"
-                          class="megamenu__widget-group-link"
-                        >
-                          Inspired
-                          <span
-                            >Multipurpose corporate and creative template</span
-                          >
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-megamenu">
-                    <div class="megamenu__widget">
-                      <h6 class="megamenu__widget-title">Corporate site</h6>
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="about-us.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              About us
-                              <span
-                                >Premium Landing page and HTML template</span
-                              >
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="gallery.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              Gallery
-                              <span>Photo, image and assets</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="services.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              Our services
-                              <span
-                                >Dicit decore numquam ei vel eos ex feugait
-                                albucius</span
-                              >
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="faq.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              F.A.Q
-                              <span
-                                >Eu pertinax referrentur definitiones ius</span
-                              >
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="team.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              Our team
-                              <span>Meet our professional teams</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="career.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              Career
-                              <span>Join with our team</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="blog-left-sidebar.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              Blog
-                              <span>News, article, and events</span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="megamenu__widget-group">
-                            <a
-                              href="testimoni.html"
-                              class="megamenu__widget-group-link"
-                            >
-                              Testimoni
-                              <span>The client is talking about us</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="blog-left-sidebar.html">Blog</a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="blog-left-sidebar.html">Single Post Left Sidebar</a>
-              </li>
-              <li>
-                <a href="blog-right-sidebar.html">Single Post Right Sidebar</a>
-              </li>
-              <li class="dropdown">
-                <a href="blog-grid-left-sidebar.html">Blog Grid</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="blog-grid-left-sidebar.html">Blog Left Sidebar</a>
-                  </li>
-                  <li>
-                    <a href="blog-grid-right-sidebar.html"
-                      >Blog Right Sidebar</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="blog-single-post-left-sidebar.html">Blog Listing</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="blog-single-post-left-sidebar.html"
-                      >Blog Left Sidebar</a
-                    >
-                  </li>
-                  <li>
-                    <a href="blog-single-post-right-sidebar.html"
-                      >Blog Right Sidebar</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#">Dropdown Lavel</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Level 2</a></li>
-                  <li><a href="#">Level 2</a></li>
-                  <li><a href="#">Level 2</a></li>
-                  <li class="dropdown">
-                    <a href="#">Dropdown 3</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Level 3</a></li>
-                      <li><a href="#">Level 3</a></li>
-                      <li><a href="#">Level 3</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="contact-us.html">Contact</a></li>
-        </ul>
-        <ul class="attributes">
-          <li class="header__button">
-            <a
-              href="https://themeforest.net/user/99webpage/portfolio"
-              class="btn btn-primary btn-rounded btn-xs btn-header"
-              >Try free</a
-            >
-          </li>
-          <li class="header__download-icon">
-            <a href="https://themeforest.net/user/99webpage/portfolio"
-              ><i class="fa fa-download"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- End Header -->
-
-    <!-- Start Masthead -->
-    <section class="masthead js-masthead-height pb-0">
-      <div class="masthead__style-overlay"></div>
-      <div class="masthead__style-watter">
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-soft fixed-top">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="masthead__content masthead__content-mtop">
-                <h1 class="masthead__content-title">
-                  Start Build Amazing Marketing Product
-                </h1>
-                <p class="masthead__content-subtitle">
-                  Build complete awesome marketing website with amazing
-                  landingpage template
-                </p>
-
-                <div class="masthead__content-action">
-                  <a
-                    href="javascript:void(0)"
-                    class="btn btn-orange btn-rounded btn-icon-left btn-lg js-video-button"
-                    data-video-id="TKnufs85hXk"
-                    ><i class="fa fa-play"></i> Video Tour</a
-                  >
-                  <a
-                    href="#"
-                    class="btn btn-primary btn-rounded btn-icon-left btn-lg"
-                    ><i class="fa fa-download"></i> Download</a
-                  >
-                </div>
-              </div>
+            <a class="navbar-brand" href="#">
+                <img src="Assets/img/logo-200@2x.png" width="150" height="22" alt="Logo-PayWithPray" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-menu-active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-menu-disabled" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-menu-disabled" href="#">Contributor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-menu-disabled" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-menu-disabled" href="#">Contact</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-primary bg-blue btn-cta btn-header nav-link">Contribute</a>
             </div>
-            <div class="col-lg-6 text-center">
-              <div class="masthead__style-watter--image">
-                <div class="masthead__style-watter--icon flyIn">
-                  <img
-                    src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/masthead-icon.png"
-                    class="img-fluid"
-                    alt="Icon"
-                  />
-                </div>
-                <img
-                  src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/businessman-meditating.png"
-                  class="img-fluid"
-                  alt="Business Man"
-                />
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- End Masthead -->
+    </nav>
+    <!-- End Navbar -->
 
-    <!-- Start Section -->
-    <section class="section pb-40">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <h2 class="section__heading section__heading-center">
-              We are build awesome marketing template
-            </h2>
-          </div>
+    <!-- Start Hero -->
+    <div class="jumbotron jumbotron-fluid bg-soft">
+        <div class="container text-center">
+            <h1 class="text-dark">Only Pay With Pray!</h1>
+            <p class="lead text-dark mt-3" style="font-weight: 400;">Open source software development resources</p>
+            <div class="row justify-content-center">
+                <div class="col-6 text-right mt-5">
+                    <a href="#" class="btn btn-lg btn-primary bg-orange border-0"><img
+                            src="/Assets/icons/solid coffee@2x.png" alt="">
+                        Contribute</a>
+                </div>
+                <div class="col-6 text-left mt-5">
+                    <a href="#" class="btn btn-lg btn-primary bg-blue border-0"><img
+                            src="/Assets/icons/solid download@2x.png" alt=""> Download</a>
+                </div>
+            </div>
+            <img src="/Assets/img/masthead-img-work@2x.png" class="hero-img d-none d-md-inline-block" alt="hero-image">
         </div>
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2 text-center mb-40">
-            <p>
-              Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed
-              ornatus tibique, fabellas pertinax est cu. Te odio omittam mea, ea
-              tractatos dissentiunt complectitur nec. Liber voluptatum ad vis.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-gift column-icon"></span>
-              <h4>All in one package</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-paper-plane column-icon"></span>
-              <h4>Send Campaign</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-cogs column-icon"></span>
-              <h4>Easy to use</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-flask column-icon"></span>
-              <h4>New Technology</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-tree column-icon"></span>
-              <h4>Branch system</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-hard-disk column-icon"></span>
-              <h4>Large Storage</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-book column-icon"></span>
-              <h4>Manual Guide</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-chart column-icon"></span>
-              <h4>Actual Report</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="section__column section__column-left">
-              <span class="icon icon-device column-icon"></span>
-              <h4>Fully responsive</h4>
-              <p>
-                Unum liber commune in mel, ut pri tritani propriae menandri. Cum
-                et magna porro intellegat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <div
-      class="section__divider section__divider-right d-none d-lg-block"
-    ></div>
-
-    <!-- Start Section -->
-    <section class="section pt-40 pb-0 sm-clear-pt">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mb-40">
-            <img
-              src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/using-software.png"
-              class="img-fluid"
-              alt="Using Software"
-            />
-          </div>
-          <div class="col-lg-4 align-self-center mb-40">
-            <h2>About Smoot Template</h2>
-            <p>
-              Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed
-              ornatus tibique, fabellas pertinax est cu. Te odio omittam mea, ea
-              tractatos dissentiunt complectitur nec.
-            </p>
-            <a href="#" class="btn btn-primary btn-rounded">Learn more </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <div class="section__divider section__divider-left"></div>
-
-    <!-- Start Section -->
-    <section class="section pt-0 pb-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 order-lg-4 mb-40">
-            <img
-              src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/businessman-with-laptop.png"
-              class="img-fluid"
-              alt="Business Man with Laptop"
-            />
-          </div>
-          <div class="col-lg-4 align-self-center mb-40">
-            <h2>Vision and Mission</h2>
-            <p>
-              Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed
-              ornatus tibique, fabellas pertinax est cu. Te odio omittam mea, ea
-              tractatos dissentiunt complectitur nec.
-            </p>
-            <a href="#" class="btn btn-primary btn-rounded">Learn more </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <div class="section__divider section__divider-right"></div>
-
-    <!-- Start Section -->
-    <section class="section pt-0 pb-60">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mb-40">
-            <img
-              src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/lady-with-handphone.png"
-              class="img-fluid"
-              alt="Lady with handphone"
-            />
-          </div>
-          <div class="col-lg-4 align-self-center mb-40">
-            <h2>Other Software Product</h2>
-            <p>
-              Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed
-              ornatus tibique, fabellas pertinax est cu. Te odio omittam mea, ea
-              tractatos dissentiunt complectitur nec.
-            </p>
-            <a href="#" class="btn btn-primary btn-rounded">Learn more </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section p0">
-      <div class="container">
-        <div class="section__cta section__cta-column section__cta-offset">
-          <div calss="row">
-            <div class="col-md-12">
-              <h2>Let's try it's free trail for 30 days</h2>
-            </div>
-          </div>
-          <div calss="row">
-            <div class="col-md-8 offset-lg-2">
-              <fieldset class="section__cta-subscribe">
-                <form name="ctaSubscribe" action="">
-                  <input
-                    type="text"
-                    class="section__cta-subscribe-input"
-                    placeholder="Enter your email address"
-                  />
-                  <button
-                    type="button"
-                    class="btn btn-rounded btn-white section__cta-subscribe-button btn-icon-right"
-                  >
-                    Subscribe <i class="fa fa-long-arrow-right"></i>
-                  </button>
-                </form>
-              </fieldset>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section section__gray-watter--bottom">
-      <div class="container">
-        <div class="row mt-100">
-          <div class="col-lg-6 offset-lg-3">
-            <h2 class="section__heading section__heading-center">
-              User testimoni
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3 text-center mb-20">
-            <div class="owl-carousel js-owl-testimoni">
-              <!-- Start testimoni 01 -->
-              <div class="item">
-                <div class="testimoni">
-                  <blockquote>
-                    Mei ne audire fabulas. Ea mea quas putent, sit an lucilius
-                    <strong>repudiandae</strong>, mei ut appetere electram
-                    maluisset.
-                  </blockquote>
-                  <p class="testimoni__author">
-                    <a href="#">Alexandro Oddol</a>
-                  </p>
-                  <a href="#" class="testimoni__avatar"
-                    ><img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/testimoni-avatar01.png"
-                      class="testimoni__avatar-image"
-                      alt="Alexandro Oddol"
-                  /></a>
-                </div>
-              </div>
-              <!-- End testimoni 01 -->
-
-              <!-- Start testimoni 02 -->
-              <div class="item">
-                <div class="testimoni">
-                  <blockquote>
-                    Ea est molestie tincidunt, eam partem facete at.
-                    <strong>Mea in modo</strong> dolores concludaturque, euismod
-                    liberavisse
-                  </blockquote>
-                  <p class="testimoni__author">
-                    <a href="#">Alexandro Oddol</a>
-                  </p>
-                  <a href="#" class="testimoni__avatar"
-                    ><img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/testimoni-avatar02.png"
-                      class="testimoni__avatar-image"
-                      alt="Alexandro Oddol"
-                  /></a>
-                </div>
-              </div>
-              <!-- End testimoni 02 -->
-
-              <!-- Start testimoni 03 -->
-              <div class="item">
-                <div class="testimoni">
-                  <blockquote>
-                    Homero sapientem per id, id sonet veniam commune vis,
-                    <strong>ei nam nonumy</strong> fuisset pro primis consequat.
-                  </blockquote>
-                  <p class="testimoni__author">
-                    <a href="#">Alexandro Oddol</a>
-                  </p>
-                  <a href="#" class="testimoni__avatar"
-                    ><img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/testimoni-avatar03.png"
-                      class="testimoni__avatar-image"
-                      alt="Alexandro Oddol"
-                  /></a>
-                </div>
-              </div>
-              <!-- End testimoni 03 -->
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="divider"></div>
-            <div class="owl-active-nav">
-              <div class="owl-carousel js-owl-clients">
-                <!-- Start client 01 -->
-                <div class="item">
-                  <a href="#" class="client">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_01-hover.png"
-                      class="client_logo-hover"
-                      alt="Client name"
-                    />
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_01.png"
-                      class="client_logo"
-                      alt="Client name"
-                    />
-                  </a>
-                </div>
-                <!-- End client 01 -->
-
-                <!-- Start client 02 -->
-                <div class="item">
-                  <a href="#" class="client">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_02-hover.png"
-                      class="client_logo-hover"
-                      alt="Client name"
-                    />
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_02.png"
-                      class="client_logo"
-                      alt="Client name"
-                    />
-                  </a>
-                </div>
-                <!-- End client 02 -->
-
-                <!-- Start client 03 -->
-                <div class="item">
-                  <a href="#" class="client">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_03-hover.png"
-                      class="client_logo-hover"
-                      alt="Client name"
-                    />
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_03.png"
-                      class="client_logo"
-                      alt="Client name"
-                    />
-                  </a>
-                </div>
-                <!-- End client 03 -->
-
-                <!-- Start client 04 -->
-                <div class="item">
-                  <a href="#" class="client">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_04-hover.png"
-                      class="client_logo-hover"
-                      alt="Client name"
-                    />
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_04.png"
-                      class="client_logo"
-                      alt="Client name"
-                    />
-                  </a>
-                </div>
-                <!-- End client 04 -->
-
-                <!-- Start client 05 -->
-                <div class="item">
-                  <a href="#" class="client">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_06-hover.png"
-                      class="client_logo-hover"
-                      alt="Client name"
-                    />
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_06.png"
-                      class="client_logo"
-                      alt="Client name"
-                    />
-                  </a>
-                </div>
-                <!-- End client 05 -->
-
-                <!-- Start client 06 -->
-                <div class="item">
-                  <a href="#" class="client">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_05-hover.png"
-                      class="client_logo-hover"
-                      alt="Client name"
-                    />
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/clients/client_05.png"
-                      class="client_logo"
-                      alt="Client name"
-                    />
-                  </a>
-                </div>
-                <!-- End client 06 -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <h2 class="section__heading section__heading-center">
-              Recommended reading
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-10 offset-lg-1">
-            <div class="owl-carousel js-owl-article">
-              <!-- Start testimoni 01 -->
-              <div class="item">
-                <div class="article__card">
-                  <div class="article__card-heading">
-                    <a href="#" class="article__card-label">News & Article</a>
-                    <a href="#" class="article__card-comment"
-                      ><i class="fa fa-comments"></i> 23</a
-                    >
-                    <h4 class="article__card-title">
-                      <a href="#">Sit in pertinax petentium est ne mucius</a>
-                    </h4>
-                  </div>
-                  <div class="article__card-image">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/blog/thumbnail/img-blog-thumbnail-01.jpg"
-                      class="img-fluid"
-                      alt="Image article"
-                    />
-                  </div>
-                  <div class="article__card-footer">
-                    <div class="article__card-author">
-                      <img
-                        src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/avatar-man.jpg"
-                        class="article__card-avatar"
-                        alt="Author Avatar"
-                      />
-                      <p>
-                        <strong>Posted by :</strong> <i class="fa fa-user"></i>
-                        <a href="#">Ence iif</a>
-                      </p>
-                      <a href="#">29 Des 2018</a>
-                    </div>
-                    <a href="#" class="article__card-action btn-link"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- End testimoni 01 -->
-
-              <!-- Start testimoni 02 -->
-              <div class="item">
-                <div class="article__card">
-                  <div class="article__card-heading">
-                    <a href="#" class="article__card-label">News & Article</a>
-                    <a href="#" class="article__card-comment"
-                      ><i class="fa fa-comments"></i> 10</a
-                    >
-                    <h4 class="article__card-title">
-                      <a href="#">Mei ne audire fabulas ea mea quas putent</a>
-                    </h4>
-                  </div>
-                  <div class="article__card-image">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/blog/thumbnail/img-blog-thumbnail-02.jpg"
-                      class="img-fluid"
-                      alt="Image article"
-                    />
-                  </div>
-                  <div class="article__card-footer">
-                    <div class="article__card-author">
-                      <img
-                        src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/avatar-women.jpg"
-                        class="article__card-avatar"
-                        alt="Author Avatar"
-                      />
-                      <p>
-                        <strong>Posted by :</strong> <i class="fa fa-user"></i>
-                        <a href="#">Rinna noor</a>
-                      </p>
-                      <a href="#">29 Des 2018</a>
-                    </div>
-                    <a href="#" class="article__card-action btn-link"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- End testimoni 02 -->
-
-              <!-- Start testimoni 03 -->
-              <div class="item">
-                <div class="article__card">
-                  <div class="article__card-heading">
-                    <a href="#" class="article__card-label">News & Article</a>
-                    <a href="#" class="article__card-comment"
-                      ><i class="fa fa-comments"></i> 23</a
-                    >
-                    <h4 class="article__card-title">
-                      <a href="#">Sit in pertinax petentium est ne mucius</a>
-                    </h4>
-                  </div>
-                  <div class="article__card-image">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/blog/thumbnail/img-blog-thumbnail-03.jpg"
-                      class="img-fluid"
-                      alt="Image article"
-                    />
-                  </div>
-                  <div class="article__card-footer">
-                    <div class="article__card-author">
-                      <img
-                        src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/avatar-man.jpg"
-                        class="article__card-avatar"
-                        alt="Author Avatar"
-                      />
-                      <p>
-                        <strong>Posted by :</strong> <i class="fa fa-user"></i>
-                        <a href="#">Ence iif</a>
-                      </p>
-                      <a href="#">29 Des 2018</a>
-                    </div>
-                    <a href="#" class="article__card-action btn-link"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- End testimoni 03 -->
-
-              <!-- Start testimoni 01 -->
-              <div class="item">
-                <div class="article__card">
-                  <div class="article__card-heading">
-                    <a href="#" class="article__card-label">News & Article</a>
-                    <a href="#" class="article__card-comment"
-                      ><i class="fa fa-comments"></i> 23</a
-                    >
-                    <h4 class="article__card-title">
-                      <a href="#">Sit in pertinax petentium est ne mucius</a>
-                    </h4>
-                  </div>
-                  <div class="article__card-image">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/blog/thumbnail/img-blog-thumbnail-01.jpg"
-                      class="img-fluid"
-                      alt="Image article"
-                    />
-                  </div>
-                  <div class="article__card-footer">
-                    <div class="article__card-author">
-                      <img
-                        src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/avatar-man.jpg"
-                        class="article__card-avatar"
-                        alt="Author Avatar"
-                      />
-                      <p>
-                        <strong>Posted by :</strong> <i class="fa fa-user"></i>
-                        <a href="#">Ence iif</a>
-                      </p>
-                      <a href="#">29 Des 2018</a>
-                    </div>
-                    <a href="#" class="article__card-action btn-link"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- End testimoni 01 -->
-
-              <!-- Start testimoni 02 -->
-              <div class="item">
-                <div class="article__card">
-                  <div class="article__card-heading">
-                    <a href="#" class="article__card-label">News & Article</a>
-                    <a href="#" class="article__card-comment"
-                      ><i class="fa fa-comments"></i> 10</a
-                    >
-                    <h4 class="article__card-title">
-                      <a href="#">Mei ne audire fabulas ea mea quas putent</a>
-                    </h4>
-                  </div>
-                  <div class="article__card-image">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/blog/thumbnail/img-blog-thumbnail-02.jpg"
-                      class="img-fluid"
-                      alt="Image article"
-                    />
-                  </div>
-                  <div class="article__card-footer">
-                    <div class="article__card-author">
-                      <img
-                        src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/avatar-women.jpg"
-                        class="article__card-avatar"
-                        alt="Author Avatar"
-                      />
-                      <p>
-                        <strong>Posted by :</strong> <i class="fa fa-user"></i>
-                        <a href="#">Rinna noor</a>
-                      </p>
-                      <a href="#">29 Des 2018</a>
-                    </div>
-                    <a href="#" class="article__card-action btn-link"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- End testimoni 02 -->
-
-              <!-- Start testimoni 03 -->
-              <div class="item">
-                <div class="article__card">
-                  <div class="article__card-heading">
-                    <a href="#" class="article__card-label">News & Article</a>
-                    <a href="#" class="article__card-comment"
-                      ><i class="fa fa-comments"></i> 23</a
-                    >
-                    <h4 class="article__card-title">
-                      <a href="#">Sit in pertinax petentium est ne mucius</a>
-                    </h4>
-                  </div>
-                  <div class="article__card-image">
-                    <img
-                      src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/blog/thumbnail/img-blog-thumbnail-03.jpg"
-                      class="img-fluid"
-                      alt="Image article"
-                    />
-                  </div>
-                  <div class="article__card-footer">
-                    <div class="article__card-author">
-                      <img
-                        src="http://99webpage.com/theme-review/landingpage/smooth/assets/images/avatar-man.jpg"
-                        class="article__card-avatar"
-                        alt="Author Avatar"
-                      />
-                      <p>
-                        <strong>Posted by :</strong> <i class="fa fa-user"></i>
-                        <a href="#">Ence iif</a>
-                      </p>
-                      <a href="#">29 Des 2018</a>
-                    </div>
-                    <a href="#" class="article__card-action btn-link"
-                      >Read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- End testimoni 03 -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Section -->
-    <section class="section section__cta pb-80">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-4">
-            <div class="column__boxed">
-              <span class="icon icon-help column__boxed-icon"></span>
-              <h5 class="column__boxed-title">Get Support</h5>
-              <p>
-                Homero sapientem per id, id sonet veniam commune vis, ei nam non
-              </p>
-              <a href="#" class="btn-link">Go to support</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-4">
-            <div class="column__boxed">
-              <span class="icon icon-users column__boxed-icon"></span>
-              <h5 class="column__boxed-title">Our comumnity</h5>
-              <p>
-                Homero sapientem per id, id sonet veniam commune vis, ei nam non
-              </p>
-              <a href="#" class="btn-link">Go to comumnity</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-4">
-            <div class="column__boxed">
-              <span class="icon icon-question column__boxed-icon"></span>
-              <h5 class="column__boxed-title">F.A.Q</h5>
-              <p>
-                Homero sapientem per id, id sonet veniam commune vis, ei nam non
-              </p>
-              <a href="#" class="btn-link">Go to FAQ</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Section -->
-
-    <!-- Start Back to top -->
-    <div class="back-to-top js-back-to-top">
-      <span class="fa fa-angle-double-up back-to-top__icon"></span>
-      <span class="back-to-top__text">TOP</span>
     </div>
-    <!-- End Back to top -->
+    <!-- End Hero -->
 
-    <!-- Start Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="footer__widget">
-              <img
-                src="http://99webpage.com/theme-review/landingpage/smooth/assets/brand/logo.png"
-                class="footer__widget-logo"
-                alt="Smooth"
-              />
-              <p>St.Kemacetan timur No.13 Block Q2 Jakarta - Indonesia</p>
-              <div class="footer__widget-contact">
-                <i class="fa fa-phone"></i>
-                <p>(021) 111-222-333-44</p>
-              </div>
-              <div class="footer__widget-contact">
-                <i class="fa fa-envelope"></i>
-                <p>info@yourdomain.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-lg-2 col-sm-3">
-            <div class="footer__widget">
-              <h4 class="footer__widget-title">Product</h4>
-              <ul class="footer__widget-linklist">
-                <li><a href="#">Landing page</a></li>
-                <li><a href="#">Email marketing</a></li>
-                <li><a href="#">HTML template</a></li>
-                <li><a href="#">Angular builder</a></li>
-                <li><a href="#">Worpress theme</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-6 col-lg-2 col-sm-3">
-            <div class="footer__widget">
-              <h4 class="footer__widget-title">Company</h4>
-              <ul class="footer__widget-linklist">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-6 col-lg-2 col-sm-3">
-            <div class="footer__widget">
-              <h4 class="footer__widget-title">Resources</h4>
-              <ul class="footer__widget-linklist">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">F.A.Q</a></li>
-                <li><a href="#">Testimoni</a></li>
-                <li><a href="#">Site map</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3 col-sm-3">
-            <div class="footer__widget">
-              <h4 class="footer__widget-title">Follow us</h4>
-              <ul class="footer__widget-network">
-                <li>
-                  <a href="#" class="footer__widget-network-link"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" class="footer__widget-network-link"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" class="footer__widget-network-link"
-                    ><i class="fa fa-linkedin"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#" class="footer__widget-network-link"
-                    ><i class="fa fa-youtube-play"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="footer__subfooter">
-              <div class="row">
-                <div class="col-md-6">
-                  <p>
-                    © <a href="#">99webpage</a> | Web Design Indonesia 2020. All
-                    Rights Reserved.
-                  </p>
+    <!-- Start Heading -->
+    <section class="heading">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-xs-12 text-center">
+                    <h1 class="text-black">We build incredible free software <br> development resources</h1>
+                    <img src="/Assets/img/section-heading@2x.png" class="mt-4 mb-4" alt="">
                 </div>
-                <div class="col-md-6 text-right">
-                  <ul class="footer__subfooter-liststyle">
-                    <li><a href="#">Terms Of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Help</a></li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-xs-12 text-center">
+                    <span class="head-description">We create open-source web development resources that are ready to use
+                        and can be developed by anyone, which we create is not only free but,</span>
+                </div>
+            </div>
         </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
+    </section>
+    <!-- End Heading -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://99webpage.com/theme-review/landingpage/smooth/assets/js/jquery.min.js"></script>
+    <!-- Start Features -->
+    <section class="features">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-5 text-center">
+                    <img src="/Assets/img/features/download@2x.png" alt="">
+                    <p class="mt-4 text-black">Download free</p>
+                    <span>Download our many contributor <br> projects for free and with no limit.</span>
+                </div>
+                <div class="col-md-4 mb-5 text-center">
+                    <img src="/Assets/img/features/Layer_2@2x.png" alt="">
+                    <p class="mt-3 text-black">Install software</p>
+                    <span>Install the software and configure it <br> according to your project.</span>
+                </div>
+                <div class="col-md-4 mb-5 text-center">
+                    <img src="/Assets/img/features/contribute@2x.png" alt="">
+                    <p class="mt-3 text-black">Contribute</p>
+                    <span>Don't forget to contribute to our <br> contributor project to make it better.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features -->
 
-    <!-- Template main JavaScript -->
-    <script src="http://99webpage.com/theme-review/landingpage/smooth/assets/js/main.min.js"></script>
+    <hr>
 
-    <!-- Template custome JavaScript -->
-    <script src="http://99webpage.com/theme-review/landingpage/smooth/assets/js/scripts.min.js"></script>
-  </body>
+    <!-- Start Project -->
+    <section class="project">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card mx-auto mb-5" style="width: 20rem;">
+                        <div class="project-img text-center mt-3">
+                            <img class="img-thumbnail border-0" src="/Assets/img/projects/1.png" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-truncate">Open Source Php Framework</h5>
+                            <p class="card-text">Web Development Tools</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="/Assets/img/contributors/1.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="author-name">Yuke Brilliant H.</p>
+                                        <p class="author-position text-muted">Software Engineer</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <a href="#" class="text-decoration-none text-muted stretched-link">Free & Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card mx-auto mb-5" style="width: 20rem;">
+                        <div class="project-img text-center mt-3">
+                            <img class="img-thumbnail border-0" src="/Assets/img/projects/2.png" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-truncate">Landing Page Template</h5>
+                            <p class="card-text">Web Template</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="/Assets/img/contributors/2.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="author-name">Hanif Abid Wihananto</p>
+                                        <p class="author-position text-muted">Web Developer</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <a href="#" class="text-decoration-none text-muted stretched-link">Free & Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card mx-auto mb-5" style="width: 20rem;">
+                        <div class="project-img text-center mt-3">
+                            <img class="img-thumbnail border-0" src="/Assets/img/projects/3.png" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-truncate">React E-Commerce Template</h5>
+                            <p class="card-text">Free & Open</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="/Assets/img/contributors/3.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="author-name">Joe Alexander</p>
+                                        <p class="author-position text-muted">Web Designer</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <a class="text-decoration-none text-muted disabled" style="opacity: 0.8;">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Project -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
