@@ -140,6 +140,12 @@ body {
   box-shadow: 0px 5px 26px -8px rgba(0, 0, 0, 0.2);
 }
 
+.img__cover {
+  object-fit: cover;
+  border-radius: 14px;
+}
+
 .project-img {
-  margin: 0px;
+  width: 90%;
+  margin-left: 5%;
 }
