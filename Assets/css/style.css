@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  height: 5800px;
 }
 
 :root {
@@ -86,6 +87,12 @@ body {
   font-weight: 700;
 }
 
+.project-section-title {
+  margin-top: 5%;
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .features,
 .project {
   margin-top: 83px;
@@ -106,7 +113,7 @@ body {
 }
 
 .project .author-name {
-  margin-top: 5px;
+  margin-top: 3px;
   font-size: 16px;
   font-weight: 500;
 }
@@ -124,6 +131,7 @@ body {
 
 .project .card {
   transition: all 1s;
+  border-radius: 7px;
 }
 
 .project .card:hover {
